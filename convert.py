@@ -98,7 +98,7 @@ def convert(text):
     for item in items_pattern:
         json_data["items"].append({
             "id": item[0],
-            "name": item[1].strip(),
+            "name": item[1],
             "price": item[2],
             "quantity": item[3],
             "sum": item[4]
